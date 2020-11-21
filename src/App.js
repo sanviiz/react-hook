@@ -7,6 +7,8 @@ export default function App() {
   return (
     <div>
       <UseStateDemo1 />
+      <hr />
+      <UseStateDemo2 />
     </div>
   );
 }
