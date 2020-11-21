@@ -9,6 +9,8 @@ export default function App() {
       <UseStateDemo1 />
       <hr />
       <UseStateDemo2 />
+      <hr />
+      <UseStateDemo3 />
     </div>
   );
 }
