@@ -2,6 +2,7 @@ import React from "react";
 import UseEffectDemo1 from "./components/useEffectDemo1";
 import UseEffectDemo2 from "./components/useEffectDemo2";
 import UseEffectDemo3 from "./components/useEffectDemo3";
+import UseEffectDemo4 from "./components/useEffectDemo4";
 import UseStateDemo1 from "./components/useStateDemo1";
 import UseStateDemo2 from "./components/useStateDemo2";
 import UseStateDemo3 from "./components/useStateDemo3";
@@ -28,7 +29,8 @@ export default function App() {
         Hide
       </button>
       <hr />
-      <UseEffectDemo3 />
+      {/* <UseEffectDemo3 /> */}
+      <UseEffectDemo4 />
     </div>
   );
 }
