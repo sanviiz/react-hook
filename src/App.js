@@ -8,6 +8,7 @@ import UseStateDemo1 from "./components/useStateDemo1";
 import UseStateDemo2 from "./components/useStateDemo2";
 import UseStateDemo3 from "./components/useStateDemo3";
 import UseMemoDemo1 from "./components/useMemoDemo1";
+import UseCallbackDemo1 from "./components/useCallbackDemo1";
 
 export default function App() {
   const [show, setShow] = React.useState(true);
@@ -37,6 +38,8 @@ export default function App() {
       <UseContextDemo1 />
       <hr />
       <UseMemoDemo1 />
+      <hr />
+      <UseCallbackDemo1 />
     </div>
   );
 }
