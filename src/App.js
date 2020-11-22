@@ -1,4 +1,5 @@
 import React from "react";
+import UseContextDemo1 from "./components/useContextDemo1";
 import UseEffectDemo1 from "./components/useEffectDemo1";
 import UseEffectDemo2 from "./components/useEffectDemo2";
 import UseEffectDemo3 from "./components/useEffectDemo3";
@@ -31,6 +32,8 @@ export default function App() {
       <hr />
       {/* <UseEffectDemo3 /> */}
       <UseEffectDemo4 />
+      <hr />
+      <UseContextDemo1 />
     </div>
   );
 }
